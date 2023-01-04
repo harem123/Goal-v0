@@ -1,6 +1,7 @@
 import Landing from './Landing'
 import Acordeon from './Acordeon'
 import NaviBar from './NaviBar';
+import Atom from './Atom';
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 function App() {
   return (<>
@@ -14,7 +15,7 @@ function App() {
   
 <Route path="/" element={<Landing/>}></Route>
 <Route path="/acordeon" element={<Acordeon/>}></Route>
-
+<Route path="/atom" element={<Atom/>}></Route>
 
 </Routes>
 </div>
