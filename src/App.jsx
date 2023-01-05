@@ -1,7 +1,8 @@
 import Landing from './Landing'
-import Acordeon from './Acordeon'
 import NaviBar from './NaviBar';
 import Atom from './Atom';
+import Table from './Table'
+import AutoTable from './AutoTable';
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 function App() {
   return (<>
@@ -14,7 +15,7 @@ function App() {
 <Routes>
   
 <Route path="/" element={<Landing/>}></Route>
-<Route path="/acordeon" element={<Acordeon/>}></Route>
+<Route path="/results" element={<AutoTable/>}></Route>
 <Route path="/atom" element={<Atom/>}></Route>
 
 </Routes>
